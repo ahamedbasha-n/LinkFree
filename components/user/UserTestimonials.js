@@ -1,8 +1,7 @@
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-
 import Link from "@components/Link";
 import Alert from "@components/Alert";
 import FallbackImage from "@components/FallbackImage";
+import Markdown from "@components/Markdown";
 
 export default function UserTestimonials({ testimonials, BASE_URL }) {
   return (
@@ -23,14 +22,15 @@ export default function UserTestimonials({ testimonials, BASE_URL }) {
                   width={100} // just to pass nextjs error
                   height={100}
                   src={`https://github.com/${testimonial.username}.png`}
+                  fallback={testimonial.username}
                   alt={testimonial.username}
                   className="rounded-full bg-primary-low"
                 />
               </div>
               <div className="flex-1 p-6 sm:hidden">
-                <h3 className="font-medium dark:text-primary-medium-low text-primary-high">
+                <h2 className="font-medium dark:text-primary-medium-low text-primary-high">
                   {testimonial.title}
-                </h3>
+                </h2>
                 <Link
                   href={`${BASE_URL}/${testimonial.username}`}
                   target="_blank"
@@ -53,7 +53,7 @@ export default function UserTestimonials({ testimonials, BASE_URL }) {
                 </Link>
               </div>
               <div className="prose prose-sm max-w-none w-fit text-primary-medium dark:text-primary-medium-low ">
-                <ReactMarkdown>{testimonial.description}</ReactMarkdown>
+                <Markdown>{testimonial.description}</Markdown>
               </div>
             </div>
           </div>

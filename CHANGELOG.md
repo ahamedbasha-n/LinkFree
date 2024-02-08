@@ -1,45 +1,47 @@
-## [1.160.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.4...v1.160.5) (2023-07-24)
+## [2.99.13](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.12...v2.99.13) (2024-02-03)
 
 
 ### Bug Fixes
 
-* profile events to show future by default ([#8339](https://github.com/EddieHubCommunity/LinkFree/issues/8339)) ([55fe24a](https://github.com/EddieHubCommunity/LinkFree/commit/55fe24a4458f3ef108005e145980ff8ed8c82b92))
+* git-auto-commit-action to v5 ([#10213](https://github.com/EddieHubCommunity/BioDrop/issues/10213)) ([074c2b2](https://github.com/EddieHubCommunity/BioDrop/commit/074c2b20e963fdd5041e0d168316ef4c4989b027))
 
 
 
-## [1.160.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.3...v1.160.4) (2023-07-24)
-
-
-### Bug Fixes
-
-* vercel function size limit ([#8341](https://github.com/EddieHubCommunity/LinkFree/issues/8341)) ([4d4cb52](https://github.com/EddieHubCommunity/LinkFree/commit/4d4cb52836c332e85aafe328516bc2db1bcd0155))
-
-
-
-## [1.160.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.2...v1.160.3) (2023-07-24)
+## [2.99.12](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.11...v2.99.12) (2024-02-01)
 
 
 ### Bug Fixes
 
-* updated dependency + removed ip ([#8337](https://github.com/EddieHubCommunity/LinkFree/issues/8337)) ([43a319c](https://github.com/EddieHubCommunity/LinkFree/commit/43a319c991a77729a6b4c4495aa40ddb4203b2c0))
+* delete data/https: directory ([#10205](https://github.com/EddieHubCommunity/BioDrop/issues/10205)) ([8e56685](https://github.com/EddieHubCommunity/BioDrop/commit/8e5668594c051e896150a34d131663eea2801f9f))
+* delete data/TobySolutions directory ([#10206](https://github.com/EddieHubCommunity/BioDrop/issues/10206)) ([a06b043](https://github.com/EddieHubCommunity/BioDrop/commit/a06b043b875968b8eb4be6d8f9ece61f042ace8b))
+* gh action paths-filter version ([#10202](https://github.com/EddieHubCommunity/BioDrop/issues/10202)) ([ff28958](https://github.com/EddieHubCommunity/BioDrop/commit/ff28958b125bd25b5466f6663d40d5360796a61b))
 
 
 
-## [1.160.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.1...v1.160.2) (2023-07-24)
-
-
-### Bug Fixes
-
-* key to page layout solve nav cache ([#8336](https://github.com/EddieHubCommunity/LinkFree/issues/8336)) ([cbfd8b7](https://github.com/EddieHubCommunity/LinkFree/commit/cbfd8b797a9e7899bab54eb737f9f03fc1b1e88c))
-
-
-
-## [1.160.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.0...v1.160.1) (2023-07-23)
+## [2.99.11](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.10...v2.99.11) (2024-01-30)
 
 
 ### Bug Fixes
 
-* responsiveness on docs layout ([#8160](https://github.com/EddieHubCommunity/LinkFree/issues/8160)) ([1abfe30](https://github.com/EddieHubCommunity/LinkFree/commit/1abfe30497752c871ddc3c69c30a6aea0c9d0d80))
+* code highlighter to rehype-pretty-code ([#10172](https://github.com/EddieHubCommunity/BioDrop/issues/10172)) ([b396607](https://github.com/EddieHubCommunity/BioDrop/commit/b396607d83110bb19a632ca68c1ccccc98483faa))
+
+
+
+## [2.99.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.9...v2.99.10) (2024-01-27)
+
+
+### Bug Fixes
+
+* show events select ([#10186](https://github.com/EddieHubCommunity/BioDrop/issues/10186)) ([6ad2504](https://github.com/EddieHubCommunity/BioDrop/commit/6ad250452f32a0cb801b3f39f2c4ab8d4fc8cc0a))
+
+
+
+## [2.99.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.8...v2.99.9) (2024-01-22)
+
+
+### Bug Fixes
+
+* manage link preview click ([#10164](https://github.com/EddieHubCommunity/BioDrop/issues/10164)) ([261c30c](https://github.com/EddieHubCommunity/BioDrop/commit/261c30c367ecd5d91042385dd58524357eb65c20))
 
 
 
